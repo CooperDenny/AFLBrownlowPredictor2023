@@ -15,7 +15,7 @@ The model predicts the following top 20 for the 2023 Brownlow Medal. Predicted v
 | Errol Gulden | Sydney Swans | 24 | 27 |
 | Tim Taranto | Richmond | 23 | 19 |
 | Connor Rozee | Port Adelaide | 22 | 21 |
-| Caleb Serong | Frementle | 21 | 24 |
+| Caleb Serong | Fremantle | 21 | 24 |
 | Zach Merrett | Essendon | 21 | 17 |
 | Noah Anderson	| Gold Coast Suns	| 20 | 22 |
 | Toby Greene	| GWS Giants | 19 |	20 |

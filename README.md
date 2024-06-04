@@ -3,7 +3,7 @@ This repository contains an R Markdown document and associated files for leverag
 
 ## Predicted Leaderboard
 
-The model predicts the following leaderboard for the 2023 Brownlow Medal. Predicted votes are pretty close to the actual votes for the top 20.
+The model predicts the following top 20 for the 2023 Brownlow Medal. Predicted votes are pretty close to the actual votes.
 
 | Player | Team | Predicted Votes | Actual Votes |
 | :----- | :--- | :-------------- | :----------- |

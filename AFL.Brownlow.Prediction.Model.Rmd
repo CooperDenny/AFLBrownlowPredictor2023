@@ -10,15 +10,15 @@ knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 
 # **Introduction**
 
-This document dives into predicting the 2023 Brownlow Medal votes in the AFL, using a dataset compiled from various reputable sources such as the `fitzRoy` R package, afl.com.au, AFL Tables, and the AFL Coaches Association. We've meticulously prepared the data, cleaned it up, and transformed it to set the stage for building a solid predictive model.
+This document dives into predicting the 2023 AFL Brownlow Medal votes, using a dataset compiled from various reputable sources such as the `fitzRoy` R package, afl.com.au, AFL Tables, and the AFL Coaches Association. I have since prepared the data, cleaned it up, and transformed it to set the stage for building a solid predictive model.
 
-Our journey begins with data preparation, where we loaded necessary libraries and pre-processed the AFL Brownlow Medal data. We then move on to model preparation, selecting training data and ensuring compatibility with our model. The core of our work lies in developing an ordinal logistic regression model, aiming to forecast the number of Brownlow votes a player might receive based on performance metrics.
+My journey begins with data preparation, where I loaded necessary libraries and pre-processed the AFL Brownlow Medal data. I then move on to model preparation, selecting training data and ensuring compatibility with the model. The core of the work lies in developing an ordinal logistic regression model, aiming to forecast the number of Brownlow votes a player might receive based on performance metrics.
 
-Following model training, we enter the testing phase, evaluating our model's performance against 2023 data. Through game-by-game analysis, we compare our predictions with actual Brownlow votes awarded by umpires, gaining insights into our model's effectiveness.
+Following model training, we enter the testing phase, evaluating the model's performance against 2023 data. Through game-by-game analysis, we compare our predictions with actual Brownlow votes awarded by umpires, gaining insights into our model's effectiveness.
 
-Beyond individual games, we extend our analysis to season-wide predictions, comparing predicted votes with actual counts to gauge our model's accuracy and predictive power.
+Beyond individual games, we extend the analysis to season-wide predictions, comparing predicted votes with actual counts to gauge the model's accuracy and predictive power.
 
-Through evaluation, we aim to uncover our model's strengths and limitations, ultimately seeking to provide valuable insights and accurate predictions to enhance sports analytics.
+Through evaluation, I aim to uncover our model's strengths and limitations, ultimately seeking to provide valuable insights and accurate predictions to enhance sports analytics.
 
 # **Data Preparation**
 

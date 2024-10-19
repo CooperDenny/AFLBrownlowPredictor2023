@@ -60,6 +60,7 @@ We can also examine the column names to understand the variables included in the
 #Display the column names
 colnames(brownlow_data)
 ```
+
 There are `r length(colnames(brownlow_data))` different variables capturing various aspects of each player's individual game performance. To streamline our analysis and reduce redundancy, we will create new variables and remove overlapping ones. For example:
 
 - We don't need the `Disposals` variable if we have `Kicks` and `Handballs` separately.
